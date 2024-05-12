@@ -1,0 +1,159 @@
+#plan-map {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  position: relative;
+  margin: 0;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.imapheader {
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  background: #353434;
+  position: fixed;
+  padding: 0px;
+  margin: 0;
+  margin-top: -7px;
+  height: 57px;
+  overflow: hidden;
+  border-bottom: 0px solid #0606065a;
+  display: flex;
+  padding-left: 10px;
+}
+
+#fnames > button {
+  background-color: blue;
+}
+.mySlides {
+  display: none;
+}
+.mapLabel {
+  font-size: 12px;
+  font-style: bold;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/*.fg-button {height:35px;padding-top:2px;font-size:14px;margin-top:-17px;position:relative;top;0;}*/
+.fg-button {
+  font-size: 12px;
+  position: relative;
+  z-index: 50;
+  margin-right: 2px;
+  margin-top: -30px;
+}
+.fg-yellow {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #d6ad09;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.fg-yellow:hover {
+  background: #f4c81c;
+}
+
+.fg-blue {
+  width: 90px;
+  height: 40px;
+  color: white;
+  background: #2163c7;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.fg-blue:hover {
+  background: #2396e8;
+}
+
+.fg-red {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background: #d41818;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.fg-red:hover {
+  background: #f04f4f;
+}
+
+.fg-grey {
+  width: 120px;
+  height: 40px;
+  color: white;
+  background: #008323;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.fg-grey:hover {
+  background: #15b23f;
+}
+
+.fg-orange {
+  color: black;
+  background: orange;
+}
+.oyh {
+  overflow-y: hidden;
+  margin: 0;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .fg-button {
+    width: 50px !important;
+  }
+  #stdbtn {
+    width: 90px !important;
+  }
+  .fg-button {
+    font-size: 10px !important;
+  }
+}
+
+#mtitle {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.mapframe {
+  width: 100%;
+  height: 100vh;
+}
